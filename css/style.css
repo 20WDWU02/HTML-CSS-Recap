@@ -1,0 +1,61 @@
+/* element {
+    property: value;
+} */
+
+
+/* Universal Selector (selects every element on your page) */
+* {
+    font-family: 'Montserrat', 'lato', 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Element Selector, selects all of this element */
+h2 {
+
+}
+
+/* ID Selector, selects the element which has this one ID */
+#topHeading {
+    /* color: red; */
+    /* color: #FF0000; */
+    /* color: rgb(255, 0, 0); */
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    /* width: 300px;
+    height: 200px; */
+}
+
+/* Class selector, selects all the elements which includes this class */
+.redItem {
+
+}
+
+/*
+    Child selector, Selects all the elements that are a direct child of the parent.
+    So in this example, it is selecting all the li's that are a direct parent of an ol
+*/
+ol > li {
+    color: red;
+}
+
+/*
+    Descendent Selector, Selects the element if it is anywhere inside of the parent element
+    In this example it will select any a within a p tag, no matter what other parent or children are.
+*/
+p a {
+
+}
+
+.block{
+    background-color: #e74c3c;
+    min-height: 100px;
+    width: 200px;
+    border: 10px solid #3498db;
+    padding: 10px;
+}
+
+.boxSizing {
+    box-sizing: border-box;
+}
